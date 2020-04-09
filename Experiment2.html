@@ -1,3 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<meta http-equiv="Content-Type"  content="text/html; charset=UTF-8">
+    <title>My experiment</title>
+    <script src="../jspsych/jspsych.js"></script>
+    <script src="../jspsych/plugins/jspsych-html-keyboard-response.js"></script>
+    <script src="../jspsych/plugins/jspsych-image-keyboard-response.js"></script>
+    <link href="../jspsych/css/jspsych.css" rel="stylesheet" type="text/css"></link>
+  </head>
+  <body></body>
+  <script>
+
 // 表示領域サイズ
 var canvas_width = 600;
 var canvas_height = 600;
@@ -196,3 +209,7 @@ var finish_experiment_procedure = {
 jsPsych.init({
   timeline: [start_experiment_procedure, search_procedure, blank, finish_experiment_procedure],
 });
+
+  </script>
+</html>
+
