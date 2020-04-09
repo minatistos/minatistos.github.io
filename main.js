@@ -83,17 +83,17 @@ var search_trial = {
 
       // ターゲット（あるなら）は赤の右下がり
       if (i==0 && trial.target == 1) {
-	trial.stimuli[stim_seed[i]].line_color = "#e4007f";
+	trial.stimuli[stim_seed[i]].line_color = "#fd7e00";
 	trial.stimuli[stim_seed[i]].angle = 45; // 最終的には45に。
       } else {
 	if (stim_type == 1) {
-	  trial.stimuli[stim_seed[i]].line_color = "#e4007f";
+	  trial.stimuli[stim_seed[i]].line_color = "#fd7e00";
 	  trial.stimuli[stim_seed[i]].angle = -45;
 	} else if (stim_type == 2) {
-	  trial.stimuli[stim_seed[i]].line_color = "#00FF00";
+	  trial.stimuli[stim_seed[i]].line_color = "#0000FF";
 	  trial.stimuli[stim_seed[i]].angle = 45;
 	} else if (stim_type == 3) {
-	  trial.stimuli[stim_seed[i]].line_color = "#00FF00";
+	  trial.stimuli[stim_seed[i]].line_color = "#0000FF";
 	  trial.stimuli[stim_seed[i]].angle = -45;
 	}
       }
@@ -140,7 +140,7 @@ var start_experiment_procedure = {
   choices: ['space'],
   prompt: "<p>画面上に斜めの線がたくさん出てきます。<br/>"+
     "<br/>"+
-    "<b>赤紫色の右下がりの線がある場合・・・右矢印キー<br/><br/>"+
+    "<b>オレンジ色の右下がりの線がある場合・・・右矢印キー<br/><br/>"+
     "ない場合・・・左矢印キー</b/><br/><br/>"+    
     "<br/>"+
     "できるだけ素早く回答してください。<br/>"+
