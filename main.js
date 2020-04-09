@@ -83,11 +83,11 @@ var search_trial = {
 
       // ターゲット（あるなら）は赤の右下がり
       if (i==0 && trial.target == 1) {
-	trial.stimuli[stim_seed[i]].line_color = "#FF0000";
+	trial.stimuli[stim_seed[i]].line_color = "#e4007f";
 	trial.stimuli[stim_seed[i]].angle = 45; // 最終的には45に。
       } else {
 	if (stim_type == 1) {
-	  trial.stimuli[stim_seed[i]].line_color = "#FF0000";
+	  trial.stimuli[stim_seed[i]].line_color = "#e4007f";
 	  trial.stimuli[stim_seed[i]].angle = -45;
 	} else if (stim_type == 2) {
 	  trial.stimuli[stim_seed[i]].line_color = "#00FF00";
