@@ -90,10 +90,10 @@ var search_trial = {
 	  trial.stimuli[stim_seed[i]].line_color = "#fd7e00";
 	  trial.stimuli[stim_seed[i]].angle = -45;
 	} else if (stim_type == 2) {
-	  trial.stimuli[stim_seed[i]].line_color = "#0000FF";
+	  trial.stimuli[stim_seed[i]].line_color = "#00FFFF";
 	  trial.stimuli[stim_seed[i]].angle = 45;
 	} else if (stim_type == 3) {
-	  trial.stimuli[stim_seed[i]].line_color = "#0000FF";
+	  trial.stimuli[stim_seed[i]].line_color = "#00FFFF";
 	  trial.stimuli[stim_seed[i]].angle = -45;
 	}
       }
