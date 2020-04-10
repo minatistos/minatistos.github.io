@@ -153,7 +153,7 @@ var start_experiment_procedure = {
 // 休憩
 var rest_procedure = {
   type: 'html-keyboard-response',
-  stimulus: 'exp_name',
+  stimulus: ' ',
   choices: ['space'],
   prompt: `<p>休憩してください。</p>
 <p>再開するには、スペースキーを押してください。</p>`,
